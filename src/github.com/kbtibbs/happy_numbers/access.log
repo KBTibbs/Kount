@@ -1,0 +1,15 @@
+goos: windows
+goarch: amd64
+pkg: github.com/kbtibbs/happy_numbers
+BenchmarkHappNumbers-6   	 3000000	       530 ns/op
+PASS
+PASS
+PASS
+coverage: 100.0% of statements
+goos: windows
+goarch: amd64
+pkg: github.com/kbtibbs/happy_numbers
+BenchmarkHappNumbers-6   	10000000	       431 ns/op
+PASS
+PASS
+coverage: 100.0% of statements

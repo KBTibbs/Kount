@@ -33,7 +33,7 @@ func sumSquareOfDigits(x int) int {
 	var digit, sum int
 
 	for x > 0 {
-		// Modulous pops off the smallest ordinal, which is technically backwards
+		// Modulus pops off the smallest ordinal, which is technically backwards
 		// but since addition is commutative, it doesn't matter.
 		digit = x % 10
 		sum = sum + (digit * digit)
